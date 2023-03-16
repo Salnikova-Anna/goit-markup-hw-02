@@ -1,7 +1,10 @@
 :root {
   --primary-text-color: #2e2f42;
+  --secondary-text-color:#434455;
   --background-color: #2e2f42;
   --link-button-active-color: #404bbf;
+  --background-page-color: #ffffff;
+  --logotype-web-color: #4d5ae5;
 }
 
 .list {
@@ -14,11 +17,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--secondary-text-color);
+  background-color: var(--background-page-color);
 }
 
 /* COMPONENTS */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -28,8 +33,8 @@ body {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+  overflow: hidden; 
+}*/
 
 .chapter-title {
   font-size: 36px;
@@ -51,13 +56,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* LOGOTYPE */
 
 .logotype {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -65,11 +69,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
+  color: var(--logotype-web-color);
 }
 
-.logotype-web {
-  color: #4d5ae5;
+.logotype-studio-up {
+  color: var(--primary-text-color);
 }
 
 .logotype-studio-down {
@@ -96,8 +100,11 @@ body {
   text-decoration: underline;
 }
 
-.address-link {
+.address {
   font-style: normal;
+}
+
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -123,6 +130,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
+  font-family: "Roboto", sans-serif 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,6 +156,10 @@ body {
 }
 .team-align {
   text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 /* PORTFOLIO */
