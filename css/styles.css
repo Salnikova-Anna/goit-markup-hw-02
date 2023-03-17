@@ -1,6 +1,6 @@
 :root {
   --primary-text-color: #2e2f42;
-  --secondary-text-color:#434455;
+  --secondary-text-color: #434455;
   --background-color: #2e2f42;
   --link-button-active-color: #404bbf;
   --background-page-color: #ffffff;
@@ -23,19 +23,6 @@ body {
 
 /* COMPONENTS */
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden; 
-}*/
-
 .chapter-title {
   font-size: 36px;
   line-height: 1.11;
@@ -56,6 +43,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 /* LOGOTYPE */
@@ -130,7 +118,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto", sans-serif 
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -164,6 +152,7 @@ body {
 
 /* PORTFOLIO */
 .menu-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
